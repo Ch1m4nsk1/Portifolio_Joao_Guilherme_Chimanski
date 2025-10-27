@@ -1,17 +1,23 @@
-# Portifolio_Joao_Guilherme_Chimanski
-Este projeto investiga como os municípios brasileiros lidam com o tratamento de esgotos.
+# IPCA & Preço da Saca de Soja 60kg — Portfólio de Ciência de Dados
 
-🌎 Análise de Tratamento de Esgoto
+**Autor:** João Guilherme Chimanski de Souza \
+**Contato:** joao99chimanski@hotmail.com \
+**LinkedIn:** www.linkedin.com/in/joão-chimanski | **GitHub:** https://github.com/Ch1m4nsk1
 
-Este projeto integra ciência de dados e vigilância ambiental, com foco em entender padrões e propor melhorias em gestão de tratamentos de esgoto.
-O objetivo é aplicar técnicas de análise, modelagem e visualização para apoiar decisões ambientais e de saneamento.
+## Sobre o projeto
+Análise integrada entre o **IPCA (índice nacional de inflação)** e o **preço da saca de soja (CEPEA, Porto de Paranaguá)**. O objetivo é entender a volatilidade da soja ao longo do tempo e como a inflação influencia variabilidade dos preços agrícolas. Além de contribuir com a construção de um portifólio.
 
-🧭 Objetivos do Projeto
+## Dados
+- `data/raw/ipca_raw.csv` — IPCA mensal.                                        Fonte: IBGE
+- `data/raw/cepea_raw.csv` — Preço diário/á vista da saca de soja (R$ e US$).   Fonte: https://www.cepea.org.br/br/indicador/soja.aspx
 
-Analisar a evolução dos tratamentos em municípios brasileiros.
+## Principais análises/extras
 
-Avaliar indicadores de tratamento de esgoto e cobertura de saneamento.
 
-Explorar correlações entre indicadores socioeconômicos e desempenho ambiental.
-
-Desenvolver modelos preditivos para estimar volume de esgotos tratados.
+## Como rodar
+```bash
+git clone https://github.com/Ch1m4nsk1/Portifolio_Joao_Guilherme_Chimanski.git
+cd Portifolio_Joao_Guilherme_Chimanski
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
